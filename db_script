@@ -1,0 +1,10 @@
+create table ssn_master(ssn_number number(10) primary key,first_name varchar2(20),
+last_name varchar2(20),gender char(1),DOB date,state_name varchar2(20),
+created_date date,updated_date date);
+
+desc usa_states_master;
+
+Name       Null?    Type         
+---------- -------- ------------ 
+STATE_ID   NOT NULL NUMBER(5)    
+STATE_NAME          VARCHAR2(15
